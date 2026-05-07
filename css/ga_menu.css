@@ -1,0 +1,41 @@
+
+table {
+    align-items: end;
+      border-collapse: separate;
+      padding: 1px ;
+      margin: 2px 0em 0 auto;
+     border: 1mm ridge rgba(2, 79, 79, 0.6);
+     }
+ 
+th {
+
+      margin: 2px 1em 0 auto;
+      background-color: #bbebf6;
+      padding: 5px;
+      background-size: cover; 
+      white-space: nowrap;
+      text-align: center;
+      border: 2px solid rgb(2, 17, 38);
+      font-size: 14px;
+      font-weight: bold; 
+      }
+
+.tout {
+     align-items: end;
+      border-collapse: separate;
+      padding: 1px ;
+      margin: 2px 1em 0 auto;
+      font-size: 16px;
+      text-align: right;
+      border:3px solid rgb(11, 119, 156);
+      border: thick double #640406;
+      border: 0mm ridge rgba(2, 79, 79, 0.6);
+    }
+
+p {
+text-align: "right";
+font-size: "4;";
+color:#2c0303;
+  font-weight: bold; 
+
+}
