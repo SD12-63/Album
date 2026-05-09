@@ -3,82 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="성동고등학교 제12회동창회 졸업앨범 2013년판 - 추억의 순간들을 담은 디지털 앨범">
+    <meta name="keywords" content="sd12, 성동고등학교, 12회동창회, 졸업앨범, 2013">
+    <meta name="author" content="SD12 Alumni Association">
+    <meta name="theme-color" content="#8855cc">
+    
+    <!-- Favicon -->
     <link rel="icon" href="images/sd12.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/sd12_gold200.png">
+    
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="css/sdalbum.css">
-    <title>SD12 Album</title>
-    <style>
-        body {
-            font-family: 굴림, Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            text-align: center;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .logo {
-            margin: 20px 0;
-        }
-        .logo img {
-            max-width: 200px;
-            height: auto;
-        }
-        .title {
-            color: #8855cc;
-            font-size: 32px;
-            font-weight: bold;
-            margin: 20px 0;
-        }
-        .subtitle {
-            color: #303030;
-            font-size: 24px;
-            font-weight: bold;
-            margin: 20px 0;
-        }
-        .menu {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            margin-top: 30px;
-        }
-        .menu-link {
-            display: inline-block;
-            padding: 12px 30px;
-            text-decoration: none;
-            color: #333;
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            font-size: 16px;
-            transition: all 0.3s ease;
-        }
-        .menu-link:hover {
-            background-color: #8855cc;
-            color: white;
-            border-color: #8855cc;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(136, 85, 204, 0.3);
-        }
-    </style>
+    
+    <title>SD12 Album - 성동고등학교 제12회동창회 졸업앨범</title>
+    
+    <!-- Open Graph Tags for Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SD12 Album - 성동고등학교 제12회동창회">
+    <meta property="og:description" content="추억의 순간들을 담은 디지털 졸업앨범 - 졸업식, 동창회, 산악회, 이벤트">
+    <meta property="og:url" content="https://sd12-63.github.io/Album/">
+    <meta property="og:image" content="https://sd12-63.github.io/Album/images/sd12_gold200.png">
 </head>
 <body>
     <div class="container">
-        <div class="logo">
-            <a href="http://www.sd12.com">
-                <img src="images/sd12_gold200.png" alt="sd12_gold">
+        <!-- Header Logo -->
+        <header class="logo">
+            <a href="http://www.sd12.com" title="SD12 Alumni Website" aria-label="SD12 Alumni Website">
+                <img src="images/sd12_gold200.png" alt="SD12 Alumni Logo">
             </a>
-        </div>
+        </header>
         
-        <h1 class="title">성동고등학교 제12회동창회</h1>
-        <h2 class="subtitle">앨범(2013년판)</h2>
+        <!-- Main Title -->
+        <main>
+            <h1 class="title">성동고등학교 제12회동창회</h1>
+            <h2 class="subtitle">앨범(2013년판)</h2>
+            
+            <!-- Navigation Menu -->
+            <nav class="menu" aria-label="Album Categories">
+                <a href="albums/graduation/index.htm" class="menu-link">졸업 앨범</a>
+                <a href="albums/meetings/index.htm" class="menu-link">동창회앨범</a>
+                <a href="albums/climbing-club/index.htm" class="menu-link">산악회앨범</a>
+                <a href="albums/events/index.htm" class="menu-link">이벤트앨범</a>
+            </nav>
+        </main>
         
-        <nav class="menu">
-            <a href="graduationalbum/index.htm" class="menu-link">졸업 앨범</a>
-            <a href="meetings/index.htm" class="menu-link">동창회앨범</a>
-            <a href="climbingclub/index.htm" class="menu-link">산악회앨범</a>
-            <a href="events/index.htm" class="menu-link">이벤트앨범</a>
-        </nav>
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2013-2026 SD12 Alumni Association. All rights reserved.</p>
+            <p>추억과 우정을 나누는 공간 | Sharing Memories & Friendship</p>
+        </footer>
     </div>
 </body>
 </html>
