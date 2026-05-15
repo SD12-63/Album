@@ -1,76 +1,487 @@
-<!DOCTYPEhtml>
+<!DOCTYPE html>
 <html lang="ko">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>성동12회졸업앨범-메뉴</title>
-<base target="_self">
-<link rel="stylesheet" type="text/css" href="../css/ga_menu.css">
 
-<title>졸업앨범메뉴</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>성동12회 졸업앨범</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    min-height:100vh;
+
+    font-family:'Noto Sans KR',sans-serif;
+
+    /* 밝은 배경 이미지 */
+
+    background:
+    linear-gradient(
+        rgba(255,255,255,0.82),
+        rgba(245,248,255,0.88)
+    ),
+
+    url("../images/main_bg.jpg");
+
+    /*
+      ↑ 배경 이미지 파일명 예시
+      원하는 사진으로 교체 가능
+    */
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:40px 20px;
+}
+
+/* MAIN CARD */
+
+.album-card{
+
+    width:340px;
+
+    background:
+    rgba(255,255,255,0.72);
+
+    backdrop-filter:blur(16px);
+
+    border-radius:34px;
+
+    overflow:hidden;
+
+    border:
+    1px solid rgba(255,255,255,0.9);
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,0.12);
+
+    position:relative;
+}
+
+/* SOFT LIGHT EFFECT */
+
+.album-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:-120px;
+    right:-120px;
+
+    width:260px;
+    height:260px;
+
+    background:
+    radial-gradient(
+        rgba(120,180,255,0.22),
+        transparent 70%
+    );
+
+    pointer-events:none;
+}
+
+/* HERO */
+
+.hero{
+
+    padding:44px 28px 34px;
+
+    text-align:center;
+}
+
+.logo-box{
+
+    width:118px;
+    height:118px;
+
+    margin:auto;
+
+    border-radius:30px;
+
+    background:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    box-shadow:
+    0 10px 28px rgba(0,0,0,0.10);
+
+    transition:0.35s;
+}
+
+.logo-box:hover{
+
+    transform:
+    translateY(-4px)
+    scale(1.03);
+}
+
+.logo-box img{
+
+    width:76px;
+    height:auto;
+}
+
+.main-title{
+
+    margin-top:24px;
+
+    font-family:'Nanum Myeongjo',serif;
+
+    font-size:34px;
+
+    color:#2b3c58;
+
+    letter-spacing:-1px;
+}
+
+.sub-title{
+
+    margin-top:12px;
+
+    font-size:14px;
+
+    line-height:1.8;
+
+    color:#5f6f86;
+}
+
+/* DIVIDER */
+
+.divider{
+
+    width:82%;
+
+    height:1px;
+
+    margin:auto;
+
+    background:
+    linear-gradient(
+        to right,
+        transparent,
+        rgba(130,150,180,0.35),
+        transparent
+    );
+}
+
+/* SECTION */
+
+.section{
+
+    padding:26px 22px;
+}
+
+.section-title{
+
+    font-size:13px;
+
+    letter-spacing:2px;
+
+    font-weight:700;
+
+    color:#5b8fd8;
+
+    margin-bottom:18px;
+
+    padding-left:4px;
+}
+
+/* MENU */
+
+.menu{
+
+    list-style:none;
+}
+
+.menu li{
+
+    margin-bottom:12px;
+}
+
+.menu a{
+
+    display:flex;
+    align-items:center;
+
+    text-decoration:none;
+
+    padding:15px 18px;
+
+    border-radius:18px;
+
+    background:
+    rgba(255,255,255,0.86);
+
+    color:#33425b;
+
+    border:
+    1px solid rgba(180,200,230,0.35);
+
+    transition:0.25s;
+
+    position:relative;
+
+    overflow:hidden;
+
+    font-size:15px;
+    font-weight:500;
+
+    box-shadow:
+    0 4px 12px rgba(0,0,0,0.04);
+}
+
+/* LIGHT SWEEP */
+
+.menu a::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+    left:-120%;
+
+    width:100%;
+    height:100%;
+
+    background:
+    linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,0.75),
+        transparent
+    );
+
+    transition:0.6s;
+}
+
+.menu a:hover::before{
+
+    left:120%;
+}
+
+.menu a:hover{
+
+    transform:
+    translateX(5px);
+
+    background:
+    linear-gradient(
+        135deg,
+        #7eb6ff,
+        #9dd4ff
+    );
+
+    color:white;
+
+    box-shadow:
+    0 8px 22px rgba(90,150,255,0.22);
+}
+
+/* ICON */
+
+.menu a span{
+
+    margin-right:12px;
+
+    font-size:18px;
+}
+
+/* FOOTER */
+
+.footer{
+
+    text-align:center;
+
+    padding:22px;
+
+    font-size:12px;
+
+    color:#70819a;
+
+    border-top:
+    1px solid rgba(180,190,210,0.20);
+
+    background:
+    rgba(255,255,255,0.35);
+}
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+    .album-card{
+
+        width:100%;
+        max-width:360px;
+    }
+
+    .main-title{
+
+        font-size:28px;
+    }
+}
+
+</style>
+
 </head>
 
+<body>
 
-<body width:"10"; background="../images/pgbg_.gif" ;>
+<div class="album-card">
 
-<di v align="right">
+    <!-- HERO -->
 
-<table>
-<table class="tout">
-<td ali gn="left">
-<p ali gn="center">
-<a href="../../Album/index.html "target="_parent"><img "border="0" src="../images/sd12go60br.png" width="61" height="82"></a>
-</p>
+    <div class="hero">
 
-<p> 
-그때 그시절
-</p></td>
+        <a href="../../Album/index.html" target="_parent">
 
-<tr>
-<td><table><th><a href="ga_building.htm" target="RightFrame">우리학교</a></th></table></td>
-</tr>
-<tr>
-<td><table><th><a href="ga_teachers.htm" target="RightFrame">은사님들</a></th></table></td>
-</tr>
-<tr>
-<td><table><th><a href="ga_classes.htm" target="RightFrame">반친구들</a></th></table></td>
-</tr>
+            <div class="logo-box">
 
-<tr><td>
-<p>3학년</p></td>
-</tr>
-<tr>
-<td><table><th><a href="ga_3_1.htm" target="RightFrame">1반</a></th></table>
-</tr>
-<tr>
-<td><table><th><a href="ga_3_2.htm" target="RightFrame">2반</a></th></table></td>
-</tr>
-<tr>
-<td><table><th><a href="ga_3_3.htm" target="RightFrame">3반</a></th></table></td>
-</tr>
-<tr>
-<td><table><th><a href="ga_3_4.htm" target="RightFrame">4반</a></th></table></td>
-</tr>
-<tr>
-<td><table><th><a href="ga_3_5.htm" target="RightFrame">5반</a></th></table></td>
-</tr>
-<tr>
-<td><table><th><a href="ga_3_6.htm" target="RightFrame">6반</a></th></table></td>
-<tr>
-<td><table><th><a href="ga_3_7.htm" target="RightFrame">7반</a></th></table></td>
-</tr>
-<tr>
-<td><table><th><a href="ga_3_8.htm" target="RightFrame">8반</a></th></table></td>
-</tr>
-<tr>
-<td><table><th><a href="ga_group.htm" target="RightFrame">끼리끼리</a></th></table></td></tr>
-<tr>
-<td><table><th><a href="ga_activities.htm" target="RightFrame">과외활동</a></th></table></td></tr>
+                <img
+                    src="../images/sd12go60br.png"
+                    alt="성동12회 졸업앨범"
+                >
 
-</table>
+            </div>
 
-</table>
+        </a>
 
+        <div class="main-title">
+            성동12회
+        </div>
+
+        <div class="sub-title">
+            아름답고 찬란했던 우리의 학창시절<br>
+            오래된 사진 속 그리운 친구들
+        </div>
+
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- SECTION 1 -->
+
+    <div class="section">
+
+        <div class="section-title">
+            MEMORY
+        </div>
+
+        <ul class="menu">
+
+            <li>
+                <a href="ga_building.htm" target="RightFrame">
+                    <span>🏫</span>
+                    우리학교
+                </a>
+            </li>
+
+            <li>
+                <a href="ga_teachers.htm" target="RightFrame">
+                    <span>👨‍🏫</span>
+                    은사님들
+                </a>
+            </li>
+
+            <li>
+                <a href="ga_classes.htm" target="RightFrame">
+                    <span>🧑‍🎓</span>
+                    반친구들
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- SECTION 2 -->
+
+    <div class="section">
+
+        <div class="section-title">
+            CLASS ALBUM
+        </div>
+
+        <ul class="menu">
+
+            <li><a href="ga_3_1.htm" target="RightFrame"><span>📘</span>3학년 1반</a></li>
+            <li><a href="ga_3_2.htm" target="RightFrame"><span>📘</span>3학년 2반</a></li>
+            <li><a href="ga_3_3.htm" target="RightFrame"><span>📘</span>3학년 3반</a></li>
+            <li><a href="ga_3_4.htm" target="RightFrame"><span>📘</span>3학년 4반</a></li>
+            <li><a href="ga_3_5.htm" target="RightFrame"><span>📘</span>3학년 5반</a></li>
+            <li><a href="ga_3_6.htm" target="RightFrame"><span>📘</span>3학년 6반</a></li>
+            <li><a href="ga_3_7.htm" target="RightFrame"><span>📘</span>3학년 7반</a></li>
+            <li><a href="ga_3_8.htm" target="RightFrame"><span>📘</span>3학년 8반</a></li>
+
+        </ul>
+
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- SECTION 3 -->
+
+    <div class="section">
+
+        <div class="section-title">
+            SPECIAL
+        </div>
+
+        <ul class="menu">
+
+            <li>
+                <a href="ga_group.htm" target="RightFrame">
+                    <span>📸</span>
+                    끼리끼리
+                </a>
+            </li>
+
+            <li>
+                <a href="ga_activities.htm" target="RightFrame">
+                    <span>⚽</span>
+                    과외활동
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+
+        Sungdong High School 12th Alumni Album<br>
+        우리의 빛나던 시절
+
+    </div>
 
 </div>
+
+</body>
+</html>
