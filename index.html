@@ -1,260 +1,52 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="ko">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>SD12 Album</title>
+    <meta name="description" content="성동고등학교 제12회 동창회">
+    <meta name="keywords"
+        content="성동고등학교 제12회 동창회, 성동고 12회 동창회, 성동12, 성동12회, 성동고 동창회, sungdong 12, sung dong 12, sd12">
 
-  <link rel="icon" href="./images/sd12.ico" />
+    <title>성동고등학교 제12회 동창회</title>
 
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/pretendard/dist/web/static/pretendard.css"
-  />
+    <!-- favicon -->
+    <link rel="icon" href="images/sd12.ico" type="image/x-icon">
 
-  <style>
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-    }
-
-    body{
-      font-family:'Pretendard',sans-serif;
-
-      min-height:100vh;
-
-      display:flex;
-      justify-content:center;
-      align-items:center;
-
-      padding:30px;
-
-      /* 밝은 배경 이미지 */
-      background-image:
-        linear-gradient(
-          rgba(255,255,255,0.72),
-          rgba(255,255,255,0.72)
-        ),
-        url("../images/pgbg_.gif");
-
-      background-size:cover;
-      background-position:center;
-      background-repeat:no-repeat;
-      background-attachment:fixed;
-
-      color:#1e293b;
-    }
-
-    .wrapper{
-      width:100%;
-      max-width:1100px;
-    }
-
-    .header{
-      text-align:center;
-      margin-bottom:50px;
-    }
-
-    .logo img{
-      width:140px;
-      transition:.3s;
-    }
-
-    .logo img:hover{
-      transform:scale(1.08);
-    }
-
-    h1{
-      margin-top:20px;
-      font-size:2.5rem;
-      font-weight:700;
-      color:#0f172a;
-    }
-
-    .subtitle{
-      margin-top:10px;
-      color:#334155;
-      font-size:1.1rem;
-    }
-
-    .album-grid{
-      display:grid;
-
-      grid-template-columns:
-        repeat(auto-fit,minmax(220px,1fr));
-
-      gap:24px;
-    }
-
-    .card{
-      text-decoration:none;
-
-      background:
-        rgba(255,255,255,0.78);
-
-      border:
-        1px solid rgba(255,255,255,0.6);
-
-      border-radius:24px;
-
-      padding:30px 24px;
-
-      backdrop-filter:blur(10px);
-
-      transition:
-        transform .25s,
-        box-shadow .25s,
-        background .25s;
-
-      color:#0f172a;
-
-      box-shadow:
-        0 10px 25px rgba(0,0,0,0.08);
-    }
-
-    .card:hover{
-      transform:translateY(-8px);
-
-      background:
-        rgba(255,255,255,0.9);
-
-      box-shadow:
-        0 18px 40px rgba(0,0,0,0.16);
-    }
-
-    .icon{
-      font-size:3rem;
-      margin-bottom:20px;
-    }
-
-    .card-title{
-      font-size:1.3rem;
-      font-weight:700;
-      margin-bottom:10px;
-    }
-
-    .card-desc{
-      color:#475569;
-      line-height:1.6;
-      font-size:.96rem;
-    }
-
-    footer{
-      margin-top:50px;
-      text-align:center;
-      color:#334155;
-      font-size:.9rem;
-    }
-
-    @media(max-width:600px){
-
-      h1{
-        font-size:1.9rem;
-      }
-
-      .card{
-        padding:24px 20px;
-      }
-    }
-  </style>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/sdcover.css">
 </head>
 
-<body background="./images/pgbg_.gif" bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">
+<body>
 
-  <div class="wrapper">
+    <div class="container">
 
-    <header class="header">
-
-      <div class="logo">
-        <a href="https://sd12-63.github.io/sd12/">
-          <img
-            src="./images/sd12_gold200.png"
-            alt="SD12 Logo"
-          >
+        <a href="mainhall/index.html">
+            <img src="images/cover_title_3.png"
+                alt="성동고등학교 제12회 동창회"
+                class="cover-image">
         </a>
-      </div>
 
-      <h1>
-        성동고등학교 제12회 동창회
-      </h1>
-
-      <p class="subtitle">
-        SD12 Album Archive · 2013 Edition
-      </p>
-
-    </header>
-
-    <main class="album-grid">
-
-      <a
-        href="./graduationalbum/index.htm"
-        class="card"
-      >
-        <div class="icon">🎓</div>
-
-        <div class="card-title">
-          졸업 앨범
+        <div class="since">
+            Since July 5, 2003
         </div>
 
-        <div class="card-desc">
-          학창 시절의 추억과 졸업사진 모음
-        </div>
-      </a>
+        <img src="images/cover_bar13.gif"
+            alt="Decoration Bar"
+            class="bar-image">
 
-      <a
-        href="./meetings/index.htm"
-        class="card"
-      >
-        <div class="icon">🤝</div>
+        <footer class="footer">
+            Copyright &copy; 2003 - 2026 
+             <a href="https://sd12-63.github.io/sd12/">
+                SD12AA 
+            </a>
+             All Rights Reserved
+        </footer>
 
-        <div class="card-title">
-          동창회 앨범
-        </div>
-
-        <div class="card-desc">
-          동문 모임과 재회의 순간들
-        </div>
-      </a>
-
-      <a
-        href="./climbingclub/index.htm"
-        class="card"
-      >
-        <div class="icon">⛰️</div>
-
-        <div class="card-title">
-          산악회 앨범
-        </div>
-
-        <div class="card-desc">
-          함께 걸었던 산과 자연의 기록
-        </div>
-      </a>
-
-      <a
-        href="./events/index.htm"
-        class="card"
-      >
-        <div class="icon">🎉</div>
-
-        <div class="card-title">
-          이벤트 앨범
-        </div>
-
-        <div class="card-desc">
-          특별 행사와 다양한 추억들
-        </div>
-      </a>
-
-    </main>
-
-    <footer>
-      © 2026 SD12 Alumni Association
-    </footer>
-
-  </div>
+    </div>
 
 </body>
+
 </html>
