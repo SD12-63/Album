@@ -1,0 +1,73 @@
+
+body 
+      { 
+        align-content: center;
+        text-align: center;
+        align-items: center;
+        background-image: url("images/pgbg_.gif");
+        background-size: cover; /* 이미지를 화면에 맞게 조절 */
+        background-repeat: repeat; /* 이미지를 반복하지 않음 */
+        background-position: center; /* 이미지를 가운데 정렬 */
+        background-image:"url('mages/sd12_gold200.png')";
+      } 
+     
+
+a
+      {      
+      color:#52071c;
+     }
+
+table {
+       width: 50;
+      border: 2mm ridge rgba(11, 92, 146, 0.6);
+      color: #9f0b15;
+      margin: 5% 0
+      }
+      
+  td
+    {
+      background-color: #aaedd9;      
+      padding: 3px;
+      font-size: 12pt;
+      font-weight: bolder; 
+      white-space: nowrap;
+      text-align: center;
+      border: 1mm ridge rgba(2, 22, 22, 0.6);
+      }
+      
+button
+    {
+      background-color: #aaedd9;      
+      padding: 2px;
+      font-size: 10pt;
+      font-weight: bolder; 
+      white-space: nowrap;
+      text-align: center;
+      border: 2mm ridge rgba(2, 22, 22, 0.6);
+      }
+
+      .sdtbl
+       {
+        width: 50;
+        border: 3mm ridge rgb(248, 168, 7);
+        color: #9f0b15;
+              }
+
+      .container 
+      {       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+      }
+      
+      .sdtd
+      {
+        background-color: #86f1c3;      
+        padding: 10px;
+        font-size: 16pt;
+        font-weight: bolder; 
+        white-space: nowrap;
+        text-align: center;
+        border: 1mm ridge rgba(0, 5, 5, 0.93);
+         }

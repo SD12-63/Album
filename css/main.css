@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+
+    background-color: #f7f9fc;
+    background-image: url("../images/pgbg_.gif");
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+.page-wrapper {
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 10px;
+}
+
+/* 상단 배너 */
+.top-banner {
+    background-image: url("../images/back_f.jpg");
+    background-size: cover;
+    padding: 12px;
+    text-align: center;
+}
+
+.top-title {
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* 타이틀 */
+.title-section {
+    background: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main-title-image {
+    width: 100%;
+    max-width: 1024px;
+}
+
+/* 메인 메뉴 */
+.main-nav {
+    background-image: url("../images/back_b.jpg");
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 15px;
+}
+
+.main-nav a {
+    background: #c0c0c0;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.main-nav a:hover {
+    background: #999999;
+    color: white;
+}
+
+/* 서브 헤더 */
+.sub-header {
+    background-image: url("../images/back_b.jpg");
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px;
+    color: white;
+}
+
+.login-box {
+    color: #00ffff;
+    font-weight: bold;
+}
+
+.hall-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo-image {
+    width: 132px;
+}
+
+/* 현재 위치 */
+.breadcrumb {
+    background-image: url("../images/back_b.jpg");
+    text-align: center;
+    padding: 10px;
+}
+
+.breadcrumb a {
+    background: #c0c0c0;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* 콘텐츠 */
+.content-area {
+    background: #ffffff;
+    background-image: url("../images/back_c.gif");
+
+    padding: 10px;
+    min-height: 600px;
+}
+
+.content-frame {
+    width: 100%;
+    height: 550px;
+    border: none;
+    background: white;
+}
+
+/* 하단 */
+.footer-section {
+    background-image: url("../images/back_f.jpg");
+    text-align: center;
+}
+
+.footer-image {
+    width: 100%;
+    max-width: 1025px;
+    margin: 0 auto;
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+
+    body {
+        padding: 5px;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub-header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .hall-title {
+        font-size: 1.5rem;
+    }
+
+    .content-frame {
+        height: 700px;
+    }
+}

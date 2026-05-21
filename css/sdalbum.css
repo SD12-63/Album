@@ -1,0 +1,41 @@
+
+td
+{  
+   width:0%;
+  padding: 10px;
+  font-size: 14pt;
+  font-weight: bolder; 
+  white-space: nowrap;
+  text-align: center; 
+  border: 0.1rem solid;
+  margin:10,10,10;
+  color: #326803;      
+  border: solid rgb(55, 165, 130);
+
+}
+
+pre
+{    
+  color: #edf3e9;     
+}
+
+ta ble
+{  
+  width:0%;
+  padding: 2px;
+  font-size: 14pt;
+  font-weight: 100, bold; 
+  white-space: nowrap;
+  text-align: center; 
+  border: 0.11rem solid;
+  margin:10px, 10px, 10px;
+  color: #057643;      
+  border: solid rgb(197, 82, 94);
+
+}
+
+body
+{background-image:url("images/pgbr_.gif")
+}
+
+
