@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<title>sD12 졸업앨범</title>
+<link href="../../images/sd12.ico" rel="icon" type="images/x-icon"/>
+<meta charset="utf-8"/>
+<link href="../../css/sdalbum.css" rel="stylesheet"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+*{box-sizing:border-box}
+body{
+    margin:0 auto;
+    max-width:1200px;
+    padding:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.6;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+td,th{
+    padding:6px;
+}
+a{
+    text-decoration:none;
+}
+@media (max-width:768px){
+    body{
+        padding:8px;
+    }
+    table{
+        display:block;
+        overflow-x:auto;
+    }
+}
+</style>
+
+<style>
+.lightbox{
+ display:none;
+ position:fixed;
+ inset:0;
+ background:rgba(0,0,0,0.88);
+ z-index:9999;
+ justify-content:center;
+ align-items:center;
+ padding:20px;
+}
+.lightbox.active{
+ display:flex;
+}
+.lightbox img{
+ max-width:95%;
+ max-height:95%;
+ border-radius:8px;
+}
+img{
+ cursor:pointer;
+}
+</style>
+</head>
+<body alink="#FF0000" background="../images/pgbg_.gif" link="#0000FF" text="#000000" vlink="#800080">
+<table border="1" bordercolor="#0000FF" bordercolordark="#808080" bordercolorlight="#00FFFF" cellpadding="10" cellspacing="0" width="443">
+<tr>
+<td align="center" width="662"><a href="ga_3_1.html" target="_self"><font color="#800080" size="4"><img border="0" height="448" src="classes/3-1.jpg" width="660"/></font></a>
+</td></tr>
+<tr>
+<td align="center" width="662"><a href="ga_3_1.html" target="_self"><font color="#800080" size="4">3학년1반</font></a>
+</td></tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4"> </font></td>
+</tr>
+<tr>
+<td align="center" width="662"><a href="ga_3_2.html" target="_self"><font color="#800080" size="4"><img border="0" height="448" src="classes/3-2.jpg" width="660"/></font></a>
+</td></tr>
+<tr>
+<td align="center" width="662"><a href="ga_3_2.html" target="_self"><font color="#800080" size="4">3학년2반</font></a>
+</td></tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4"> </font></td>
+</tr>
+<tr>
+<td align="center" width="662"><a href="ga_3_3.html" target="_self"><font color="#800080" size="4"><img border="0" height="448" src="classes/3-3.jpg" width="660"/></font></a>
+</td></tr>
+<tr>
+<td align="center" width="662"><a href="ga_3_3.html" target="_self"><font color="#800080" size="4">3학년3반</font></a>
+</td></tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4"> </font></td>
+</tr>
+<tr>
+<td align="center" width="662"><a href="ga_3_4.html" target="_self"><font color="#800080" size="4"><img border="0" height="448" src="classes/3-4.jpg" width="660"/></font></a>
+</td></tr>
+<tr>
+<td align="center" width="662"><a href="ga_3_4.html" target="_self"><font color="#800080" size="4">3학년4반</font></a>
+</td></tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4"> </font></td>
+</tr>
+<tr>
+<td align="center" width="662"><a href="ga_3_5.html" target="_self"><font color="#800080" size="4"><img border="0" height="448" src="classes/3-5.jpg" width="660"/></font></a>
+</td></tr>
+<tr>
+<td align="center" width="662"><a href="ga_3_5.html" target="_self"><font color="#800080" size="4">3학년5반</font></a>
+</td></tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4"> </font></td>
+</tr>
+<tr>
+<td align="center" width="662"><a href="ga_3_6.html" target="_self"><font color="#800080" size="4"><img border="0" height="448" src="classes/3-6.jpg" width="660"/></font></a>
+</td></tr>
+<tr>
+<td align="center" width="662"><a href="ga_3_6.html" target="_self"><font color="#800080" size="4">3학년6반</font></a>
+</td></tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4"> </font></td>
+</tr>
+<tr>
+<td align="center" width="662"><a href="ga_3_7.html" target="_self"><font color="#800080" size="4"><img border="0" height="448" src="classes/3-7.jpg" width="660"/></font></a>
+</td></tr>
+<tr>
+<td align="center" width="662"><a href="ga_3_7.html" target="_self"><font color="#800080" size="4">3학년7반</font></a>
+</td></tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4"> </font></td>
+</tr>
+<tr>
+<td align="center" width="662"><a href="ga_3_8.html" target="_self"><font color="#800080" size="4"><img border="0" height="448" src="classes/3-8.jpg" width="660"/></font></a>
+</td></tr>
+<tr>
+<td align="center" width="662"><a href="ga_3_8.html" target="_self"><font color="#800080" size="4">3학년8반</font></a>
+</td></tr>
+</table>
+
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+ const lightbox=document.createElement('div');
+ lightbox.className='lightbox';
+ lightbox.innerHTML='<img src="">';
+ document.body.appendChild(lightbox);
+
+ const lbimg=lightbox.querySelector('img');
+
+ document.querySelectorAll('img').forEach(function(img){
+   img.addEventListener('click', function(){
+     lbimg.src=this.src;
+     lightbox.classList.add('active');
+   });
+ });
+
+ lightbox.addEventListener('click', function(){
+   lightbox.classList.remove('active');
+ });
+});
+</script>
+</body>
+</html>

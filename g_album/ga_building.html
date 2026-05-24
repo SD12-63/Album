@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<title>SD12 졸업앨범</title>
+<link href="../../images/sd12.ico" rel="icon" type="images/x-icon"/>
+<meta charset="utf-8"/>
+<link href="../../css/sdalbum.css" rel="stylesheet"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+*{box-sizing:border-box}
+body{
+    margin:0 auto;
+    max-width:1200px;
+    padding:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.6;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+td,th{
+    padding:6px;
+}
+a{
+    text-decoration:none;
+}
+@media (max-width:768px){
+    body{
+        padding:8px;
+    }
+    table{
+        display:block;
+        overflow-x:auto;
+    }
+}
+</style>
+
+<style>
+.lightbox{
+ display:none;
+ position:fixed;
+ inset:0;
+ background:rgba(0,0,0,0.88);
+ z-index:9999;
+ justify-content:center;
+ align-items:center;
+ padding:20px;
+}
+.lightbox.active{
+ display:flex;
+}
+.lightbox img{
+ max-width:95%;
+ max-height:95%;
+ border-radius:8px;
+}
+img{
+ cursor:pointer;
+}
+</style>
+</head>
+<body alink="#FF0000" background="../images/pgbg_.gif" link="#0000FF" text="#000000" vlink="#800080">
+<table border="1" bordercolor="#0000FF" bordercolordark="#808080" bordercolorlight="#00FFFF" cellpadding="10" cellspacing="0" width="411">
+<tr>
+<td align="center" width="662"><font color="#800080" size="4"><img border="0" height="332" src="building/building_01.jpg" width="660"/></font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4">교사 전경</font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4">  </font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4"><img border="0" height="517" src="building/building_02.jpg" width="660"/></font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4">교사전경</font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4">  </font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4"><img border="0" height="292" src="building/building_04.jpg" width="660"/></font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4">교사 후경</font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4">  </font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4"><img border="0" height="420" src="building/building_03.jpg" width="306"/></font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4">복도</font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4">  </font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4"><img border="0" height="432" src="building/assembly_03.jpg" width="660"/></font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4">조회</font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4">  </font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4"><img border="0" height="333" src="building/assembly_01.jpg" width="474"/></font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4">조회</font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4">  </font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4"><img border="0" height="327" src="building/assembly_02.jpg" width="483"/></font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4">조회</font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4">  </font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4"><img border="0" height="627" src="building/assembly_04.jpg" width="399"/></font></td>
+</tr>
+<tr>
+<td align="center" width="662"><font color="#800080" size="4">교장 선생님 훈화</font></td>
+</tr>
+</table>
+
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+ const lightbox=document.createElement('div');
+ lightbox.className='lightbox';
+ lightbox.innerHTML='<img src="">';
+ document.body.appendChild(lightbox);
+
+ const lbimg=lightbox.querySelector('img');
+
+ document.querySelectorAll('img').forEach(function(img){
+   img.addEventListener('click', function(){
+     lbimg.src=this.src;
+     lightbox.classList.add('active');
+   });
+ });
+
+ lightbox.addEventListener('click', function(){
+   lightbox.classList.remove('active');
+ });
+});
+</script>
+</body>
+</html>
