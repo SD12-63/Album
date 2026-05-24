@@ -1,460 +1,380 @@
 
-<!DOCTYPE html>
-
-<html lang="ko">
+<!DOCTYPE html><html lang="ko">
 <head>
 <title>sD12 졸업앨범</title>
-<link href="../../images/sd12.ico" rel="icon" type="images/x-icon"/>
-<meta charset="utf-8"/>
-<link href="../../css/sdalbum.css" rel="stylesheet"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<style>
-*{box-sizing:border-box}
-body{
-    margin:0 auto;
-    max-width:1200px;
-    padding:12px;
-    font-family:Arial, Helvetica, sans-serif;
-    line-height:1.6;
-}
-img{
-    max-width:100%;
-    height:auto;
-}
-table{
-    width:100%;
-    border-collapse:collapse;
-}
-td,th{
-    padding:6px;
-}
-a{
-    text-decoration:none;
-}
-@media (max-width:768px){
-    body{
-        padding:8px;
-    }
-    table{
-        display:block;
-        overflow-x:auto;
-    }
-}
-</style>
-
-<style>
-.lightbox{
- display:none;
- position:fixed;
- inset:0;
- background:rgba(0,0,0,0.88);
- z-index:9999;
- justify-content:center;
- align-items:center;
- padding:20px;
-}
-.lightbox.active{
- display:flex;
-}
-.lightbox img{
- max-width:95%;
- max-height:95%;
- border-radius:8px;
-}
-img{
- cursor:pointer;
-}
-</style>
+<link rel="icon" href="../../images/sd12.ico" type="images/x-icon">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../css/sdalbum.css">
 </head>
-<body alink="#FF0000" background="../images/pgbg_.gif" link="#0000FF" text="#000000" vlink="#800080">
-<table border="1" bordercolor="#6699FF" bordercolordark="#808080" bordercolorlight="#00FFFF" cellpadding="10" cellspacing="0" height="22453" width="46%"><tr><td align="center" colspan="2" height="450" width="33%"><font size="4"><img border="0" height="448" src="classes/3-5.jpg" width="660"/></font></td>
-</tr><tr><td align="center" colspan="2" height="17" width="33%"><font size="4">3학년5반</font></td>
-</tr><tr><td align="center" colspan="2" height="17" width="33%"><font size="4"> </font></td>
-</tr><tr><td align="center" colspan="2" height="470" width="33%"><font size="4"><img border="0" height="468" src="teachers/tc/tc05.jpg" width="348"/></font></td>
-</tr><tr><td align="center" colspan="2" height="15" width="33%"><font size="4">권기수 담임 선생님</font></td>
-</tr><tr><td align="center" colspan="2" height="17" width="33%"><font size="4"> </font></td>
-</tr><tr><td align="center" colspan="2" height="417" width="33%"><font size="4"><img border="0" height="415" src="classes/t05.jpg" width="660"/></font></td>
-</tr><tr><td align="center" colspan="2" height="17" width="33%"><font size="4">권기수 선생님의 수업시간 (수학)</font></td>
-</tr><tr><td align="center" colspan="2" height="17" width="33%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5001.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"><img border="0" height="300" src="classes/s5/r5001.jpg" width="220"/></font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">강광식</font></td>
-<td align="center" height="21" width="17%"><font size="4">강광식</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5002.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">강정치</font></td>
-<td align="center" height="18" width="17%"><font size="4">강정치</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5003.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">김강민</font></td>
-<td align="center" height="21" width="17%"><font size="4">김강민</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5004.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">김도영</font></td>
-<td align="center" height="18" width="17%"><font size="4">김도영</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5005.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"><img border="0" height="300" src="classes/s5/r5005.jpg" width="220"/></font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">김동성</font></td>
-<td align="center" height="21" width="17%"><font size="4">김동성</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5006.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">김동영</font></td>
-<td align="center" height="18" width="17%"><font size="4">김동영</font></td>
-</tr><tr><td align="center" height="18" width="16%"> </td>
-<td align="center" height="18" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5007.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"><img border="0" height="300" src="classes/s5/r5007.jpg" width="220"/></font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">김부철</font></td>
-<td align="center" height="21" width="17%"><font size="4">김부철</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5008.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">김선익</font></td>
-<td align="center" height="18" width="17%"><font size="4">김선익</font></td>
-</tr><tr><td align="center" height="18" width="16%"> </td>
-<td align="center" height="18" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5009.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"><img border="0" height="300" src="classes/s5/r5009.jpg" width="220"/></font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">김수길</font></td>
-<td align="center" height="21" width="17%"><font size="4">김수길</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5010.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">김영국</font></td>
-<td align="center" height="18" width="17%"><font size="4">김영국</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5011.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"><img border="0" height="300" src="classes/s5/r5011.jpg" width="220"/></font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">김운섭</font></td>
-<td align="center" height="21" width="17%"><font size="4">김운섭</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5012.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">김원은</font></td>
-<td align="center" height="18" width="17%"><font size="4">김원은</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5013.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">김재훈</font></td>
-<td align="center" height="21" width="17%"><font size="4">김재훈</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5014.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">김정권</font></td>
-<td align="center" height="18" width="17%"><font size="4">김정권</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5015.jpg" width="220"/></font></td>
-<td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/r5015.jpg" width="220"/></font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">김정봉</font></td>
-<td align="center" height="21" width="17%"><font size="4">김정봉</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5016.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"><img border="0" height="300" src="classes/s5/r5016.jpg" width="220"/></font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">김정환</font></td>
-<td align="center" height="18" width="17%"><font size="4">김정환</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5017.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">김종대</font></td>
-<td align="center" height="21" width="17%"><font size="4">김종대</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5018.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">김평팔</font></td>
-<td align="center" height="18" width="17%"><font size="4">김평팔</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5019.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="1" width="16%"><font size="4">도종남</font></td>
-<td align="center" height="1" width="17%"><font size="4">도종남</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5020.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">박계운</font></td>
-<td align="center" height="18" width="17%"><font size="4">박계운</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5021.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">박관호</font></td>
-<td align="center" height="21" width="17%"><font size="4">박관호</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5022.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">박소상</font></td>
-<td align="center" height="18" width="17%"><font size="4">박소상</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5023.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">박용래</font></td>
-<td align="center" height="21" width="17%"><font size="4">박용래</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5024.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">박재성</font></td>
-<td align="center" height="18" width="17%"><font size="4">박재성</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5025.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">박정식</font></td>
-<td align="center" height="21" width="17%"><font size="4">박정식</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5026.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">서인석</font></td>
-<td align="center" height="18" width="17%"><font size="4">서인석</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5027.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">서청석</font></td>
-<td align="center" height="21" width="17%"><font size="4">서청석</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5028.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font> <font size="4"><img border="0" height="300" src="classes/s5/r5028.jpg" width="220"/></font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">손관명</font></td>
-<td align="center" height="18" width="17%"><font size="4">손관명</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5029.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">송영찬</font></td>
-<td align="center" height="21" width="17%"><font size="4">송영찬</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5030.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">승명진</font></td>
-<td align="center" height="18" width="17%"><font size="4">승명진</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5031.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">신영주</font></td>
-<td align="center" height="21" width="17%"><font size="4">신영주</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5032.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">안병선</font></td>
-<td align="center" height="18" width="17%"><font size="4">안병선</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5033.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">오완근</font></td>
-<td align="center" height="21" width="17%"><font size="4">오완근</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5034.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"><img border="0" height="300" src="classes/s5/r5034.jpg" width="220"/></font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">오종환</font></td>
-<td align="center" height="18" width="17%"><font size="4">오종환</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5035.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">오흥선</font></td>
-<td align="center" height="21" width="17%"><font size="4">오흥선</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5036.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">용한복</font></td>
-<td align="center" height="18" width="17%"><font size="4">용한복</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5037.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">윤용무</font></td>
-<td align="center" height="21" width="17%"><font size="4">윤용무</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5038.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"><img border="0" height="300" src="classes/s5/r5038.jpg" width="220"/></font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">윤춘화</font></td>
-<td align="center" height="18" width="17%"><font size="4">윤춘화</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5039.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">이근수</font></td>
-<td align="center" height="21" width="17%"><font size="4">이근수</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5040.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">이문규</font></td>
-<td align="center" height="18" width="17%"><font size="4">이문규</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5041.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">이성천</font></td>
-<td align="center" height="21" width="17%"><font size="4">이성천</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5042.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"><img border="0" height="300" src="classes/s5/r5042.jpg" width="220"/></font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">이영수</font></td>
-<td align="center" height="18" width="17%"><font size="4">이영수</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5043.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">이원창</font></td>
-<td align="center" height="21" width="17%"><font size="4">이원창</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5044.jpg" width="220"/></font></td>
-<td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/r5044.jpg" width="220"/></font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">이재신</font></td>
-<td align="center" height="18" width="17%"><font size="4">이재신</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5045.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"><img border="0" height="300" src="classes/s5/r5045.jpg" width="220"/></font><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">이지훈</font></td>
-<td align="center" height="21" width="17%"><font size="4">이지훈</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5046.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">이철웅</font></td>
-<td align="center" height="18" width="17%"><font size="4">이철웅</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5047.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">장광협</font></td>
-<td align="center" height="21" width="17%"><font size="4">장광협</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5048.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">장덕균</font></td>
-<td align="center" height="18" width="17%"><font size="4">장덕균</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5049.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">장병기</font></td>
-<td align="center" height="21" width="17%"><font size="4">장병기</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5050.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">장원석</font></td>
-<td align="center" height="18" width="17%"><font size="4">장원석</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5051.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">정경용</font></td>
-<td align="center" height="21" width="17%"><font size="4">정경용</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5052.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">정광선</font></td>
-<td align="center" height="18" width="17%"><font size="4">정광선</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5053.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">채택병</font></td>
-<td align="center" height="21" width="17%"><font size="4">채택병</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5054.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">최광년</font></td>
-<td align="center" height="18" width="17%"><font size="4">최광년</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5055.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">최윤묵</font></td>
-<td align="center" height="21" width="17%"><font size="4">최윤묵</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5056.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">한항</font></td>
-<td align="center" height="18" width="17%"><font size="4">한항</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5057.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"><img border="0" height="300" src="classes/s5/r5057.jpg" width="220"/></font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">현원기</font></td>
-<td align="center" height="21" width="17%"><font size="4">현원기</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5058.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"><img border="0" height="300" src="classes/s5/r5058.jpg" width="220"/></font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">홍건택</font></td>
-<td align="center" height="18" width="17%"><font size="4">홍건택</font></td>
-</tr><tr><td align="center" height="17" width="16%"><font size="4"> </font></td>
-<td align="center" height="17" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5059.jpg" width="220"/></font></td>
-<td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/r5059.jpg" width="220"/></font></td>
-</tr><tr><td align="center" height="21" width="16%"><font size="4">홍원의</font></td>
-<td align="center" height="21" width="17%"><font size="4">홍원의</font></td>
-</tr><tr><td align="center" height="21" width="16%"> </td>
-<td align="center" height="21" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="302" width="16%"><font size="4"><img border="0" height="300" src="classes/s5/s5060.jpg" width="220"/></font></td>
-<td align="center" height="302" width="17%"><font size="4"> </font></td>
-</tr><tr><td align="center" height="18" width="16%"><font size="4">홍현수</font></td>
-<td align="center" height="18" width="17%"><font size="4">홍현수</font></td>
-</tr></table>
-<script>
-document.addEventListener('DOMContentLoaded', function(){
- const lightbox=document.createElement('div');
- lightbox.className='lightbox';
- lightbox.innerHTML='<img src="">';
- document.body.appendChild(lightbox);
-
- const lbimg=lightbox.querySelector('img');
-
- document.querySelectorAll('img').forEach(function(img){
-   img.addEventListener('click', function(){
-     lbimg.src=this.src;
-     lightbox.classList.add('active');
-   });
- });
-
- lightbox.addEventListener('click', function(){
-   lightbox.classList.remove('active');
- });
-});
-</script>
-</body>
+<body background="../images/pgbg_.gif" bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">
+<table border="1" width="46%" height="22453" bordercolor="#6699FF" cellspacing="0" cellpadding="10" bordercolorlight="#00FFFF" bordercolordark="#808080"><tr><td width="33%" colspan="2" align="center" height="450"><font size="4"><img border="0" src="classes/3-5.jpg" width="660" height="448"></font></td>
+</tr><tr><td width="33%" colspan="2" align="center" height="17"><font size="4">3학년5반</font></td>
+</tr><tr><td width="33%" colspan="2" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="33%" colspan="2" align="center" height="470"><font size="4"><img border="0" src="teachers/tc/tc05.jpg" width="348" height="468"></font></td>
+</tr><tr><td width="33%" colspan="2" align="center" height="15"><font size="4">권기수 담임 선생님</font></td>
+</tr><tr><td width="33%" colspan="2" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="33%" colspan="2" align="center" height="417"><font size="4"><img border="0" src="classes/t05.jpg" width="660" height="415"></font></td>
+</tr><tr><td width="33%" colspan="2" align="center" height="17"><font size="4">권기수 선생님의 수업시간 (수학)</font></td>
+</tr><tr><td width="33%" colspan="2" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5001.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/r5001.jpg" width="220" height="300"></font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">강광식</font></td>
+<td width="17%" align="center" height="21"><font size="4">강광식</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5002.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">강정치</font></td>
+<td width="17%" align="center" height="18"><font size="4">강정치</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5003.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">김강민</font></td>
+<td width="17%" align="center" height="21"><font size="4">김강민</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5004.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">김도영</font></td>
+<td width="17%" align="center" height="18"><font size="4">김도영</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5005.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/r5005.jpg" width="220" height="300"></font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">김동성</font></td>
+<td width="17%" align="center" height="21"><font size="4">김동성</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5006.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">김동영</font></td>
+<td width="17%" align="center" height="18"><font size="4">김동영</font></td>
+</tr><tr><td width="16%" align="center" height="18">&nbsp;</td>
+<td width="17%" align="center" height="18"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5007.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/r5007.jpg" width="220" height="300"></font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">김부철</font></td>
+<td width="17%" align="center" height="21"><font size="4">김부철</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5008.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">김선익</font></td>
+<td width="17%" align="center" height="18"><font size="4">김선익</font></td>
+</tr><tr><td width="16%" align="center" height="18">&nbsp;</td>
+<td width="17%" align="center" height="18"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5009.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/r5009.jpg" width="220" height="300"></font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">김수길</font></td>
+<td width="17%" align="center" height="21"><font size="4">김수길</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5010.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">김영국</font></td>
+<td width="17%" align="center" height="18"><font size="4">김영국</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5011.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/r5011.jpg" width="220" height="300"></font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">김운섭</font></td>
+<td width="17%" align="center" height="21"><font size="4">김운섭</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5012.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">김원은</font></td>
+<td width="17%" align="center" height="18"><font size="4">김원은</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5013.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">김재훈</font></td>
+<td width="17%" align="center" height="21"><font size="4">김재훈</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5014.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">김정권</font></td>
+<td width="17%" align="center" height="18"><font size="4">김정권</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5015.jpg" width="220" height="300"></font></td>
+<td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/r5015.jpg" width="220" height="300"></font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">김정봉</font></td>
+<td width="17%" align="center" height="21"><font size="4">김정봉</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5016.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/r5016.jpg" width="220" height="300"></font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">김정환</font></td>
+<td width="17%" align="center" height="18"><font size="4">김정환</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5017.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">김종대</font></td>
+<td width="17%" align="center" height="21"><font size="4">김종대</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5018.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">김평팔</font></td>
+<td width="17%" align="center" height="18"><font size="4">김평팔</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5019.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="1"><font size="4">도종남</font></td>
+<td width="17%" align="center" height="1"><font size="4">도종남</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5020.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">박계운</font></td>
+<td width="17%" align="center" height="18"><font size="4">박계운</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5021.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">박관호</font></td>
+<td width="17%" align="center" height="21"><font size="4">박관호</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5022.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">박소상</font></td>
+<td width="17%" align="center" height="18"><font size="4">박소상</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5023.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">박용래</font></td>
+<td width="17%" align="center" height="21"><font size="4">박용래</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5024.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">박재성</font></td>
+<td width="17%" align="center" height="18"><font size="4">박재성</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5025.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">박정식</font></td>
+<td width="17%" align="center" height="21"><font size="4">박정식</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5026.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">서인석</font></td>
+<td width="17%" align="center" height="18"><font size="4">서인석</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5027.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">서청석</font></td>
+<td width="17%" align="center" height="21"><font size="4">서청석</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5028.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font> <font size="4"><img border="0" src="classes/s5/r5028.jpg" width="220" height="300"></font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">손관명</font></td>
+<td width="17%" align="center" height="18"><font size="4">손관명</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5029.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">송영찬</font></td>
+<td width="17%" align="center" height="21"><font size="4">송영찬</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5030.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">승명진</font></td>
+<td width="17%" align="center" height="18"><font size="4">승명진</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5031.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">신영주</font></td>
+<td width="17%" align="center" height="21"><font size="4">신영주</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5032.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">안병선</font></td>
+<td width="17%" align="center" height="18"><font size="4">안병선</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5033.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">오완근</font></td>
+<td width="17%" align="center" height="21"><font size="4">오완근</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5034.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/r5034.jpg" width="220" height="300"></font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">오종환</font></td>
+<td width="17%" align="center" height="18"><font size="4">오종환</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5035.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">오흥선</font></td>
+<td width="17%" align="center" height="21"><font size="4">오흥선</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5036.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">용한복</font></td>
+<td width="17%" align="center" height="18"><font size="4">용한복</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5037.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">윤용무</font></td>
+<td width="17%" align="center" height="21"><font size="4">윤용무</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5038.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/r5038.jpg" width="220" height="300"></font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">윤춘화</font></td>
+<td width="17%" align="center" height="18"><font size="4">윤춘화</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5039.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">이근수</font></td>
+<td width="17%" align="center" height="21"><font size="4">이근수</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5040.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">이문규</font></td>
+<td width="17%" align="center" height="18"><font size="4">이문규</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5041.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">이성천</font></td>
+<td width="17%" align="center" height="21"><font size="4">이성천</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5042.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/r5042.jpg" width="220" height="300"></font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">이영수</font></td>
+<td width="17%" align="center" height="18"><font size="4">이영수</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5043.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">이원창</font></td>
+<td width="17%" align="center" height="21"><font size="4">이원창</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5044.jpg" width="220" height="300"></font></td>
+<td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/r5044.jpg" width="220" height="300"></font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">이재신</font></td>
+<td width="17%" align="center" height="18"><font size="4">이재신</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5045.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/r5045.jpg" width="220" height="300"></font><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">이지훈</font></td>
+<td width="17%" align="center" height="21"><font size="4">이지훈</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5046.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">이철웅</font></td>
+<td width="17%" align="center" height="18"><font size="4">이철웅</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5047.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">장광협</font></td>
+<td width="17%" align="center" height="21"><font size="4">장광협</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5048.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">장덕균</font></td>
+<td width="17%" align="center" height="18"><font size="4">장덕균</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5049.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">장병기</font></td>
+<td width="17%" align="center" height="21"><font size="4">장병기</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5050.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">장원석</font></td>
+<td width="17%" align="center" height="18"><font size="4">장원석</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5051.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">정경용</font></td>
+<td width="17%" align="center" height="21"><font size="4">정경용</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5052.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">정광선</font></td>
+<td width="17%" align="center" height="18"><font size="4">정광선</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5053.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">채택병</font></td>
+<td width="17%" align="center" height="21"><font size="4">채택병</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5054.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">최광년</font></td>
+<td width="17%" align="center" height="18"><font size="4">최광년</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5055.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">최윤묵</font></td>
+<td width="17%" align="center" height="21"><font size="4">최윤묵</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5056.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">한항</font></td>
+<td width="17%" align="center" height="18"><font size="4">한항</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5057.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/r5057.jpg" width="220" height="300"></font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">현원기</font></td>
+<td width="17%" align="center" height="21"><font size="4">현원기</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5058.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/r5058.jpg" width="220" height="300"></font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">홍건택</font></td>
+<td width="17%" align="center" height="18"><font size="4">홍건택</font></td>
+</tr><tr><td width="16%" align="center" height="17"><font size="4">&nbsp;</font></td>
+<td width="17%" align="center" height="17"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5059.jpg" width="220" height="300"></font></td>
+<td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/r5059.jpg" width="220" height="300"></font></td>
+</tr><tr><td width="16%" align="center" height="21"><font size="4">홍원의</font></td>
+<td width="17%" align="center" height="21"><font size="4">홍원의</font></td>
+</tr><tr><td width="16%" align="center" height="21">&nbsp;</td>
+<td width="17%" align="center" height="21"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="302"><font size="4"><img border="0" src="classes/s5/s5060.jpg" width="220" height="300"></font></td>
+<td width="17%" align="center" height="302"><font size="4">&nbsp;</font></td>
+</tr><tr><td width="16%" align="center" height="18"><font size="4">홍현수</font></td>
+<td width="17%" align="center" height="18"><font size="4">홍현수</font></td>
+</tr></table></body>
 </html>
+
+
