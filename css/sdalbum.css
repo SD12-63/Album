@@ -1,7 +1,8 @@
 
+
 td
 {  
-   width:0%;
+  width:0%;
   padding: 10px;
   font-size: 14pt;
   font-weight: bolder; 
@@ -19,7 +20,7 @@ pre
   color: #edf3e9;     
 }
 
-ta ble
+table
 {  
   width:0%;
   padding: 2px;
@@ -38,4 +39,34 @@ body
 {background-image:url("images/pgbr_.gif")
 }
 
-
+*{box-sizing:border-box}
+body{
+    margin:0 auto;
+    max-width:1200px;
+    padding:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.6;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+td,th{
+    padding:6px;
+}
+a{
+    text-decoration:none;
+}
+@media (max-width:768px){
+    body{
+        padding:8px;
+    }
+    table{
+        display:block;
+        overflow-x:auto;
+    }
+}
